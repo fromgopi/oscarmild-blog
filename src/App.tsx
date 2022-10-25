@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "./components/common/header/Header";
 
 const App: React.FC = () => {
     return(
         <div>
-            <h2>Welcome to Oscarmild Blog</h2>
+            <Header title="Welcome to Oscarmild Blog"></Header>
         </div>
     )
 }
