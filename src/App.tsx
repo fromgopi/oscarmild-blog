@@ -1,11 +1,17 @@
 import React from "react";
-import Header from "./components/common/header/Header";
+import Layout from "./components/layout/Layout";
 
-const App: React.FC = () => {
+const getLayout = () => {
     return(
-        <div>
-            <Header title="Welcome to Oscarmild Blog"></Header>
-        </div>
+        <Layout></Layout>
+    )
+}
+
+function App() {
+    return(
+        <>
+            {getLayout()}
+        </>
     )
 }
 
