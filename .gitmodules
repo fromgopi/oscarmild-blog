@@ -1,0 +1,3 @@
+[submodule "oscarmild-blog-backend"]
+	path = oscarmild-blog-backend
+	url = git@github.com:fromgopi/oscarmild-blog-backend.git
