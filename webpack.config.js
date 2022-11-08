@@ -2,7 +2,7 @@ const path = require('path');
 
 module.unknownContextCritical = false; 
 
-module.exports = {
+module.exports = { 
     entry: "./src/main.tsx",
     output: {
         filename: "oscarmild_blog.js",
