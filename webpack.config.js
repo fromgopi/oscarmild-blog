@@ -1,7 +1,7 @@
 const path = require('path'); 
  
 module.unknownContextCritical = false;  
- 
+  
 module.exports = { 
     entry: "./src/main.tsx",
     output: {
