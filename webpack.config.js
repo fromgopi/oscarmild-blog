@@ -12,7 +12,7 @@ module.exports = {
     devServer: {
         static: "./dist",
         port: 9000, //default port: 8080
-    },
+    }, 
     module: {
         rules: [ 
             {
