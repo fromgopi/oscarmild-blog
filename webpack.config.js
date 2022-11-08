@@ -14,7 +14,7 @@ module.exports = {
         port: 9000, //default port: 8080
     },
     module: {
-        rules: [
+        rules: [ 
             {
                 test: /\.tsx?$/,
                 use: {
